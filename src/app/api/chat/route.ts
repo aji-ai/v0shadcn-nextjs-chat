@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import { OpenAIStream, StreamingTextResponse } from 'ai'
 
 const openai = new OpenAI({
-//  apiKey: "sk-lO48KTOlBvO1BD_-r2NdbgVPKy_ndmpEt2X6VIpipQT3BlbkFJSAj3QsbcZUjYdpemTh1Qy1d2sKCZUJimgBohJrr2sA",
+// be sure not leave your key in here when pushing to a public repo like I've done in the past ...
   apiKey: process.env.OPENAI_API_KEY,
 });
 
